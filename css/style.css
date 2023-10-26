@@ -3,6 +3,16 @@ html {
     font-size: 16px;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tagline {
+    grid-column: 1/12;
+}
+
 body {
     background-color:#EDF3F3;
     font-family:'mulish', sans-serif;
@@ -10,6 +20,21 @@ body {
     color:#0D73FF;
     max-width: 70.2543rem;
     margin: 5rem auto;
+}
+
+nav {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    margin: 0 0 0 2em; 
+}
+
+nav :hover {
+    text-decoration: none;
+    color:#FF14AE;
 }
 
 h1,
@@ -31,16 +56,53 @@ h2 {
     line-height: normal;
 }
 
-a {
-    color: var(--Primary-Pink, #D9D9D9);
-    text-decoration: none;
-    margin: 0 0 0 6rem
+section {
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-column-gap: 1.5rem;
+    grid-auto-flow: dense;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#project1 {
+    grid-column:4/8;
+}
+
+#title1 {
+    grid-column: 5/9;
+}
+
+#project2 {
+    grid-column: 4/7;
+}
+
+#title2 {
+    grid-column:5/9 ;
+}
+
+#project3 {
+    grid-column: 2/6;
+}
+
+#title3 {
+    grid-column: 5/8;
+}
+
+#project4 {
+    grid-column:4/8 ;
+}
+
+#title4 {
+    grid-column: 6/9;
+}
+
+#bio {
+    grid-column: 6/12;
+}
+
+#contact {
+    text-align: center;
+    grid-column: 4/10;
 }
 
 nav {
