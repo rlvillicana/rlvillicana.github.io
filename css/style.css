@@ -48,6 +48,10 @@ nav :hover {
     color:#FF14AE;
 }
 
+nav:visited{
+    color: #FF14AE;
+}
+
 h1,
 nav,
 footer  {
