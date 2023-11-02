@@ -48,10 +48,6 @@ nav :hover {
     color:#FF14AE;
 }
 
-nav:visited{
-    color: #FF14AE;
-}
-
 h1,
 nav,
 footer  {
@@ -81,12 +77,20 @@ section {
    place-self: center;
 }
 
+#project :hover {
+    opacity: .7;
+}
+
 #title {
     place-self: center;
 }
 
 #project1 {
     place-self: center;
+}
+
+#project1:hover{
+    opacity: .7;
 }
 
 #title1 {
@@ -97,12 +101,20 @@ section {
     place-self: center;
 }
 
+#project2:hover {
+    opacity: .7;
+}
+
 #title2 {
     place-self: center;
 }
 
 #project3 {
     place-self: center;
+}
+
+#project3:hover {
+    opacity: .7;
 }
 
 #title3 {
@@ -113,17 +125,44 @@ section {
     place-self: center;
 }
 
+#project4:hover {
+    opacity: .7;
+}
+
 #title4 {
     place-self: center;
 }
 
+img {
+    float: left;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.text-container {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+#me {
+   display: flex; 
+   align-self: left;
+}
+
 #bio {
-    grid-column: 17/18;
+    grid-column: 19/24;
 }
 
 #contact {
-    place-self: center;
-    text-align: center;
+   text-align: center;
+   font-size: 24px;
+}
+
+input, textarea {
+    width: 100%;
+    background-color: #FF14AE;
+    border: 2px solid #0D73FF;
+    color: #EDF3F3;
+    font-size: 16px;
 }
 
 #pic {
@@ -152,4 +191,15 @@ section {
 
 #pic4 {
     place-self: center;
+}
+
+footer {
+    display: flex; 
+    align-items: center;
+    justify-content:space-around;
+}
+
+footer a{
+    margin: 0 0 0 2em; 
+    color: #0D73FF;
 }
