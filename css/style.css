@@ -211,6 +211,11 @@ input, textarea {
     place-self: center;
 }
 
+#heart :hover{
+    text-decoration: none;
+    color: #FF14AE;
+}
+
 footer {
     display: flex; 
     align-items: center;
